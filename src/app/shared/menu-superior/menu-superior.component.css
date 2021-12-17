@@ -1,0 +1,21 @@
+.container-menu {
+    padding: 2rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.container-menu li {
+    list-style: none;
+}
+
+.container-menu a {
+    text-decoration: none;
+}

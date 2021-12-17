@@ -1,0 +1,14 @@
+<div class="container contenedor-respuesta">
+    <div *ngFor="let item of data" class="tarjeta">
+        <h2>
+            {{item.name}}
+        </h2>
+        <p>
+            name: {{item.name}}
+        </p>
+        <p>
+            especie: {{item.species}}
+        </p>
+        <img class="img-fluid" src="{{item.image}}">
+    </div>
+</div>

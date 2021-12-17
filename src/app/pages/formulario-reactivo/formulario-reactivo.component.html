@@ -1,0 +1,24 @@
+<div class="container-form">
+    <form class="col-12 col-md-6" [formGroup]="form" (ngSubmit)="enviarFormulario()">
+
+        <div class="form-group">
+            <label>Nombre</label>
+            <input type="text" formControlName="nombre" class="form-control" />
+            <small *ngIf="nombreNoValido" style="color:red;">Este campo es erróneo</small>
+        </div>
+        <div class="form-group">
+            <label>Apellido</label>
+            <input type="text" formControlName="apellido" class="form-control" />
+            <small *ngIf="apellidoNoValido" style="color:red;">Este campo es erróneo</small>
+        </div>
+        <div class="form-group">
+            <label>Correo</label>
+            <input type="text" formControlName="correo" class="form-control" />
+            <small *ngIf="correoNoValido" style="color:red;">Este campo es erróneo</small>
+        </div>
+        <div>
+            <button class="mt-3 btn btn-success" type="submit">Enviar Formulario</button>
+        </div>
+
+    </form>
+</div>

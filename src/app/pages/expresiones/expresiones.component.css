@@ -1,0 +1,11 @@
+.container-contador {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container-buttons {
+    display: flex;
+    gap: 1rem;
+}
